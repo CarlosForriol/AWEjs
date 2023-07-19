@@ -1,0 +1,19 @@
+.rowTask {
+  margin-top: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 4em;
+  border: 2px solid rgb(57, 74, 128);
+  border-radius: 13px;
+  
+}
+.rowTask:hover {
+  transform: scale(1.05); 
+}
+.tags{
+  color: rgb(51, 88, 253);
+  margin: 4px;
+  background-color: rgb(126, 192, 230);
+  border-radius: 3px;
+}
+

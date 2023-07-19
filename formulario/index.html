@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+<meta charset="utf-8"/>
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <header>
+        <h1> Suscripción a la revista </h1>
+    </header>
+    <form action = "index.html">
+        <section>
+            <fieldset id = "datosPersonales">
+                <legend>Datos Personales</legend>
+                <div>
+                    Nombre:<input type="text"> 
+                    Primer Apellido:<input type="text"> 
+                    Segundo Apellido:<input type="text">
+                </div>
+                <div>
+                    Dirección:<input type="text" id ="direccion" placeholder="calle o plaza,número y piso">
+                </div>
+                <div>
+                    e-mail:<input type="text" id ="e-mail" placeholder="@">
+                </div>
+                <div>
+                    contraseña:<input type="text"> 
+                </div>
+                <div>
+                    Sexo:<br><br>
+                    <label for = "maleGender"> Varón </label>
+                    <input type = "radio" name = "gender" value = "man" id = "maleGender"> <br>
+                    <label for = "womanGender"> Mujer </label>
+                    <input type = "radio" name = "gender" value = "woman" id = "womanGender"> 
+                </div>
+            </fieldset>
+        </section> 
+        <section>
+            <fieldset>
+                <legend>Nivel de estudios e intereses</legend>
+                Nivel de estudios:<br>
+                <select name = "level">
+                    <option value = "noStud"> Sin estudios </option>
+                    <option value = "ESO"> ESO </option>
+                    <option value = "bach"> Bachillerato </option>
+                    <option value = "uni"> Grado Universitario </option>
+                    <option value = "master"> Master Universitario </option>
+                    <option value = "doct"> Doctorado </option>
+                </select><br><br>
+                Recibir artículos sobre los siguientes temas:<br>
+                <input name="cbMusica" type="checkbox" />Música<br>
+                <input name="cbDeportes" type="checkbox" />Deportes<br>
+                <input name="cbCine" type="checkbox" />Cine<br>
+                <input name="cbLibros" type="checkbox" />Libros<br> 
+                <input name="cbCiencia" type="checkbox" />Ciencia<br> 
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Datos sobre la revista</legend>
+                Frecuencia con la que se recibirá la revista:<br><br>
+                <select name = "frecuencia">
+                    <option value = "diario"> diario </option>
+                    <option value = "semanal"> semanal </option>
+                    <option value = "mensual"> mensual </option>
+                    <option value = "anual"> anual </option>
+                </select><br><br>
+                puedes mandar tu articulo sobre cualquier tema de los que tratamos. Nosotros lo valoraremos para que pueda ser publicado<br><br>
+                mandar artículo: <input type="file" >
+                
+                <div >
+                    <textarea name = "observations" id = "obs" cols="50" rows="6">Escribe tu comentario</textarea>
+                </div>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend> Comenzar de nuevo </legend>
+                <div>
+                    Borrar todos los datos del formulario y volver a empezar
+                    <input type = "reset" name = "startOver">
+                </div>
+            </fieldset>
+       </section>
+       <section>
+        <fieldset>
+            <legend> Enviar </legend>
+            <div>
+                Enviar formulario por correo electronico: Al pulsar en el botón se abrirá la pagina de envio de correo: en esa página se pulsa enviar
+                <input type = "submit" value = "Enviar">
+            </div>
+        </fieldset>
+   </section>
+    </form>
+</body>
+
+</html>

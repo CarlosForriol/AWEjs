@@ -1,0 +1,73 @@
+#divUCM {background-color: rgba(173, 6, 6, 0.712);
+    text-align: center;
+    display: flex;
+    font-size:x-large;
+    justify-content: center;
+    color:gray;
+    height: 5em;
+}
+
+.divCDCO {
+    display: flex;
+    flex-direction: row;
+    height: 4em;
+    
+}
+
+.divCDCO a{
+    text-decoration: none;
+}
+
+.divCDCO a:link, a:active, a:visited{
+    text-decoration: none;
+    color:white;
+
+}
+
+.divCDCO div{background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#tc {
+    font-style: italic;
+}
+
+.capDiasSemana {
+    background-color: grey;
+}
+
+#tpDesayuno {
+    background-color: rgb(197, 152, 4);
+}
+
+.tdDesayunoHorario {
+    background-color: rgb(214, 184, 12);
+}
+
+#break {
+    background-color: rgb(200, 82, 236);
+}
+
+.breakHour {
+    background-color: rgb(214, 139, 236);
+}
+
+#lunch {
+    background-color: rgb(9, 145, 39);
+}
+
+.lunchHour {
+    background-color: rgb(102, 240, 68);
+}
+
+.social div{
+    display: inline;
+}
+
+.social div img {
+    background-color: black;
+}

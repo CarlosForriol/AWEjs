@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    margin-top: 0;
+    color: black;
+}
+*{
+    
+    margin: 5px;
+    color: white;
+}
+body{
+    background-color: rgb(234, 190, 63) ;
+}
+textarea{
+    color: black;
+}
+fieldset{
+    border-radius: 15px;
+    border-color: rgb(0, 4, 255);
+    border-width: 4px;
+    background-color: rgb(30, 30, 30);
+}
+legend{
+    color: black;
+    background-color:#ddd;
+    border-radius: 12px; 
+    text-align: center;
+}
+select{
+    color: black;
+}
+option{
+    color: black;
+}
+input{
+    color: black;
+}
+#direccion{
+    width: 20%;
+}
+#e-mail{
+    width: 15%;
+}

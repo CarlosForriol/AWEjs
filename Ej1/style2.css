@@ -1,0 +1,40 @@
+body{min-height: 100vh;}
+h1 {text-align: center;
+    font-size: 60px;}
+h2 {
+    text-align: center;
+    font-size: 30px;}
+h3 {text-align: center;
+        font-size: 30px;}
+p {text-align: center;}
+#seccion1{background-color:brown;
+    height: 20vh;
+    padding-top: 5px;
+   }
+#seccion2{
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   height: 60vh;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   ;}
+#seccion3{background-color:green;
+    height: 20vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+ #seccion4{background-color:coral;
+    display: block;
+    width: 30%;
+    
+    height: 60vh;
+   }
+#seccion5{background-color:blue;
+    display: block;
+    width: 70%;
+    margin-left: 5px; 
+    
+    height: 60vh;
+}
+   

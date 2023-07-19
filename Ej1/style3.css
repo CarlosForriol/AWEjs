@@ -1,0 +1,48 @@
+body{min-height: 100vh;}
+h1 {text-align: center;
+    font-size: 10vh}
+h2 {
+    text-align: center;
+    font-size: 6vh}
+h3 {text-align: center;
+        font-size: 6vh;}
+p {text-align: center;}
+#seccion1{background-color:brown;
+    height: 20vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+#seccion2{
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   height: 50vh;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   ;}
+#seccion3{background-color:green;
+    height: 20vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+ #seccion4{background-color:coral;
+    display: block;
+    width: 30%;
+    
+    height: 50vh;
+   }
+#seccion5{background-color:blue;
+    display: block;
+    width: 70%;
+    margin-left: 5px; 
+    height: 50vh;
+}
+#seccion6{background-color:rgb(255, 0, 140);
+    margin-top: 5px;
+    padding-top: 5px;
+    height: 10vh;
+}
+#idBarra{
+    text-align: left;
+    font-size: 3vh;
+}
